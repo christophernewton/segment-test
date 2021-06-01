@@ -1,5 +1,7 @@
 # segment-test
 
-run `yarn` 
+Run `yarn` 
 
-run `yarn dev` to view dev server
+Run `yarn dev` to view dev server
+
+View server at `http://localhost:3000/`
