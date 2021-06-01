@@ -52,7 +52,7 @@ export default {
       userAgent: window.navigator.userAgent
     })
     const sendData = () => {
-      console.log('sending identify')
+      /* console.log('sending identify')
       analytics.identify(
         form.value,
         {
@@ -61,7 +61,7 @@ export default {
           },
         }
       )
-      console.log('finished identify')
+      console.log('finished identify') */
       console.log('sending track')
       analytics.track('contact us', {
         phone: form.value.phone,
